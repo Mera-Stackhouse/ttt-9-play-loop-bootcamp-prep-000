@@ -37,8 +37,8 @@ end
 
 # Define your play method below
 
-def play
-  "Please choose "
+def play(board)
+  "Please choose 1-9: "
   9.times do
     turn(board)
   end
