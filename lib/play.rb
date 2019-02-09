@@ -38,7 +38,7 @@ end
 # Define your play method below
 
 def play
-  for 1 in 1...9
+  9.times do
     turn(board)
   end
 end  
